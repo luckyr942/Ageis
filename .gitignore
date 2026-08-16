@@ -1,0 +1,17 @@
+# ============================================
+# Environment & Secrets
+# ============================================
+
+# Secrets
+.env
+*.env
+!.env.example
+
+# Node & Builds
+node_modules/
+.next/
+dist/
+build/
+
+# System
+.DS_Store
